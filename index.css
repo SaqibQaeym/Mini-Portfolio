@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFAFA;
+    color: #000;
+    font-family: 'Open Sans';
+}
+
+header {
+    background-color: #0a0a0a;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 1;
+    border-radius: 0 0 3px 3px;
+    border-bottom: 5px solid #242526;
+}
+
+.cta {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: larger;
+    color: white;
+}
+
+.cta:hover {
+    cursor: pointer;
+    background-color: #3C99DC;
+    opacity: 80%;
+}
+
+
+.greet {
+    
+    padding: 80px 0;
+    margin-top: 100px;
+    line-height: 2;
+    text-align: center;
+}
+
+.greet h1 {
+    color: #0092CC;
+}
+
+.aboutMe {
+    text-align: center;
+    margin-top: 100px;
+    width: 400px;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.wish {
+    text-align: center;
+    margin-top: 20px;
+    width: 400px;
+    color: #0092CC;
+    padding-left: 100px;
+}
+
+.goal {
+    text-align: center;
+    margin-top: 20px;
+    width: 400px;
+    padding-left: 100px;
+}
+
+.skills {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    width: 400px;
+    padding-left: 100px;
+}
+
+.blue {
+    color: #0092CC;
+    font-weight: bold;
+}
+
+.spareTime {
+    text-align: center;
+    margin-top: 100px;
+    width: 400px;
+    padding-top: 10px;
+    color: #0092CC;
+    position: relative;
+    left: 800px;
+    bottom: 669px;
+}
+
+.black {
+    color: #000;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px;
+    background-color: #F27405;
+    color: black;
+    border-radius: 50%;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: rotate(60deg);
+}
+
+.CTAmsg {
+    margin-left: 200px;
+}
+
+form {
+    width: 400px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+
+textarea {
+    padding: 5px;
+}
+
+.socialMedia {
+    position: absolute;
+    left: 800px;
+    top: 1300px;
+    text-align: center;
+}
+
+.rotate:hover {
+    transform: rotate(180deg);
+    opacity: 0.5;
+}
+
+.rotate {
+    margin: 5px;
+}
+
+.contactMe:hover {
+    border: 1px solid #0092CC;
+}
