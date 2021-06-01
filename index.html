@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>SaqibQaeym's_Porfolio</title>
+    <title>SaqibQaeym's_Portfolio</title>
 </head>
 <body>
 
@@ -32,29 +32,78 @@
 
         <article id="about">
 
-            <p class="aboutMe">
-                My name is Ahmad Saqib Qaeym and I’m a Junior Front-End Developer.
-                I am studying Bioengineering at the Yıldız technical university in Istanbul 
-                and I learned web development on Codecademy.
-            </p>
-            <p class="wish">
-                Now I wish to fully devote myself to a Front-End Developer job.
-            </p>
-            <p class="goal">
-                My main professional goal is to find a job that will give me an opportunity to deepen
-                and improve previously acquired programming skills, engage in interesting and creative
-                projects and raise my Front-End development qualifications.
-                Mainly I want to focus on learning JavaScript. Also, I put a lot of work to write a clear
-                and semantically correct code.
-            </p>
-            <p class="skills">
-                I work with technologies such as <span class="blue">HTML, CSS, JavaScript, React, Redux, Github, Git, 
-                    Canva</span> on daily basis. I'm also familliar with <span class="blue">Python</span>.
-            </p>
-            <p class="spareTime">
-                In my spare time I work on Full-Stack Engineering <span class="black">(I want to be a badass Full-Stack Engineer before I'm 23.)</span>,
-                read books and comics, play table tenis, watch movies, workout, and search for Elon Musk's news.
-            </p>
+            <div class="backgroundOrange">
+                <p class="aboutMe">
+                    My name is Ahmad Saqib Qaeym and I’m a Junior Front-End Developer.
+                    I am studying Bioengineering at the Yıldız technical university in Istanbul 
+                    and I learned web development on Codecademy.
+                </p>
+    
+                <p class="wish">
+                    Now I wish to fully devote myself to a Front-End Developer job.
+    
+                <ul class="goal">
+                    <li class="listHeader">
+                        <h3>
+                            My professional goals:
+                        </h3>
+                    </li>
+                    <li>
+                        To find a job that will give me an opportunity
+                        to deepen and improve previously acquired programming skills.
+                    </li>
+                    <li>
+                        Work with a team on real-world projects.
+                    </li>
+                    <li>
+                        I want to improve my JavaScript skills.
+                    </li>
+                    <li>
+                        Focus on Full-Stack Engineering.
+                    </li>
+                </ul>
+                
+                <ul class="skills">
+                    <li class="listHeader">
+                        <h3>
+                            Technologies I work with:
+                        </h3>
+                    </li>
+                    <li>
+                        HTML, CSS, JavaScript, Python.
+                    </li>
+                    <li>
+                        React, Redux, Github, Git.
+                    </li>
+                    <li>
+                        Canva on daily basis.
+                    </li>
+                </ul>
+            </div>
+
+           <div class="backgroundOrange">
+            <ul class="spareTime">
+                <li class="listHeader">
+                    <h3>
+                        In my spare time:
+                    </h3>
+                </li>
+                <li>
+                    I work on my Full-Stack Engineering goal. 
+                    <span>I want to be a Full-Stack Engineer before I'm 23</span>.
+                </li>
+                <li>
+                    Search for Elon Musk's news.
+                </li>
+                <li>
+                    Read books & comics
+                </li>
+                <li>
+                    Workout, play table tenis, chess.
+                </li>
+            </ul>
+           </div>
+            
         </article>
 
     </main>
@@ -62,27 +111,25 @@
     <div class="CTAmsg" id="CTAmsg">
         <h3>Contact Me</h3>
         <h44>You can write me a message or find me on socialmedia</h4>
+        <form action="">
+            <div>
+                <label for="name">Name:</label> <br>
+                <input class="contactMe" type="name" name="name" id="name" size="40" required>
+            </div>
+            <div>
+                <label for="email">Email:</label> <br>
+                <input class="contactMe" type="email" name="email" id="name" size="40" required>
+            </di>
+            <div>
+                <label for="message">Message:</label> <br>
+                <textarea class="contactMe" name="message" id="message" cols="31" rows="10"></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" name="submit" id="submit">
+            </div>
+        </form>
     </div>
        
-
-    <form action="">
-        <div>
-            <label for="name">Name:</label> <br>
-            <input class="contactMe" type="name" name="name" id="name" size="40" required>
-        </div>
-        <div>
-            <label for="email">Email:</label> <br>
-            <input class="contactMe" type="email" name="email" id="name" size="40" required>
-        </di>
-        <div>
-            <label for="message">Message:</label> <br>
-            <textarea class="contactMe" name="message" id="message" cols="31" rows="10"></textarea>
-        </div>
-        <div class="submit">
-            <input type="submit" name="submit" id="submit">
-        </div>
-    </form>
-
     <section class="socialMedia">
         <figure class="rotate">
             <a href="https://github.com/SaqibQaeym" target="_blank"><img src="https://i.pinimg.com/236x/b0/09/86/b0098641ce3b14c8cd171fb6b6f36503.jpg" alt="" height="70px" width="70px"></a> <br>
