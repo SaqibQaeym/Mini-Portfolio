@@ -14,20 +14,23 @@
 }
 
 body {
-    background-color: #FFFAFA;
-    color: #000;
-    font-family: 'Open Sans';
+    background-color: #090909;
+    color: #FFFFFF;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+/* Header styles 
+#########################
+*/
+
 header {
-    background-color: #0a0a0a;
+    background-color: #B6590D;
     color: white;
     position: fixed;
     width: 100%;
     top: 0%;
     z-index: 1;
-    border-radius: 0 0 3px 3px;
-    border-bottom: 5px solid #242526;
+    border-radius: 0 0 4px 4px;
 }
 
 .cta {
@@ -35,18 +38,22 @@ header {
     padding: 20px 40px;
     font-size: larger;
     color: white;
+    text-decoration: none;
 }
 
 .cta:hover {
     cursor: pointer;
-    background-color: #3C99DC;
-    opacity: 80%;
+    background-color: #000000;
 }
 
 
+/* Class greet styles 
+#########################
+*/
+
 .greet {
     
-    padding: 80px 0;
+    padding: 50px 0;
     margin-top: 100px;
     line-height: 2;
     text-align: center;
@@ -56,35 +63,41 @@ header {
     color: #0092CC;
 }
 
+/* Article styles
+######################### 
+*/
+
 .aboutMe {
-    text-align: center;
+    text-align: left;
     margin-top: 100px;
-    width: 400px;
-    padding-top: 10px;
-    padding-left: 100px;
+    margin-left: 100px;
+    width: 500px;
+    line-height: 25px;
 }
 
 .wish {
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
-    width: 400px;
+    margin-left: 100px;
+    width: 500px;
     color: #0092CC;
-    padding-left: 100px;
+    line-height: 25px;
 }
 
 .goal {
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
-    width: 400px;
-    padding-left: 100px;
+    margin-left: 100px;
+    width: 500px;
+    line-height: 25px;
 }
 
 .skills {
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
-    padding-bottom: 10px;
-    width: 400px;
-    padding-left: 100px;
+    margin-left: 100px;
+    width: 500px;
+    line-height: 25px;
 }
 
 .blue {
@@ -93,32 +106,23 @@ header {
 }
 
 .spareTime {
-    text-align: center;
-    margin-top: 100px;
-    width: 400px;
-    padding-top: 10px;
-    color: #0092CC;
+    text-align: left;
+    margin-top: 230px;
+    width: 500px;
+    color: #FFFFFF;
     position: relative;
-    left: 800px;
+    left: 775px;
     bottom: 669px;
+    line-height: 25px;
 }
 
-.black {
-    color: #000;
-    font-weight: bold;
+span {
+    color: #0092CC;
 }
 
-button {
-    padding: 10px;
-    background-color: #F27405;
-    color: black;
-    border-radius: 50%;
-}
-
-button:hover {
-    cursor: pointer;
-    transform: rotate(60deg);
-}
+/*  CTAmsg Styles
+###########################
+ */
 
 .CTAmsg {
     margin-left: 200px;
@@ -126,7 +130,6 @@ button:hover {
 
 form {
     width: 400px;
-    margin-left: 200px;
     margin-bottom: 100px;
     padding-top: 20px;
 }
@@ -134,6 +137,22 @@ form {
 textarea {
     padding: 5px;
 }
+
+.contactMe:hover {
+    border: 1px solid #B6590D;
+}
+
+.listHeader {
+    list-style-type: none;
+}
+
+.submit:hover {
+    opacity: 50%;
+}
+
+/* socialMedia styles
+########################
+ */
 
 .socialMedia {
     position: absolute;
@@ -149,8 +168,4 @@ textarea {
 
 .rotate {
     margin: 5px;
-}
-
-.contactMe:hover {
-    border: 1px solid #0092CC;
 }
